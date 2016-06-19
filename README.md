@@ -1,5 +1,5 @@
 # Prototyping with Xcode and Swift @ ITP Camp 2016
-All supplementary workshop materials and links can be found here: [Presentation Slides](presentation link)
+All supplementary workshop materials and links can be found here: [Presentation Slides](https://docs.google.com/presentation/d/1A8NHtQEestswjv4FRpV_piCyJeJwtOuuwQ6hZ4cNaSs/edit?usp=sharing)
 
 ## PREREQUISITES
 ### MUST HAVES
