@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Csk-Js-fxF">
+            <objects>
+                <viewController storyboardIdentifier="HeartVC" id="cf2-iH-lV1" customClass="ViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PAP-de-cQl"/>
+                        <viewControllerLayoutGuide type="bottom" id="FTm-dh-oq8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RjX-cS-0gl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WM-un-Awj">
+                                <rect key="frame" x="8" y="501" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" modalTransitionStyle="crossDissolve" id="j3f-GY-GFO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hw-ya-ZWs">
+                                <rect key="frame" x="323" y="20" width="52" height="50"/>
+                                <connections>
+                                    <segue destination="joH-MN-X3l" kind="presentation" modalTransitionStyle="crossDissolve" id="ZOe-Zx-VrZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agn-fA-VaE">
+                                <rect key="frame" x="167" y="627" width="41" height="40"/>
+                                <connections>
+                                    <segue destination="Utt-aI-lsB" kind="presentation" modalTransitionStyle="crossDissolve" id="8Hx-cr-CL2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goi-67-F2b">
+                                <rect key="frame" x="95" y="627" width="41" height="40"/>
+                                <connections>
+                                    <segue destination="8jo-2O-eOi" kind="presentation" modalTransitionStyle="crossDissolve" id="Ei4-os-nua"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6o-LP-Gjb">
+                                <rect key="frame" x="95" y="501" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="9bh-qv-mvh" kind="presentation" modalTransitionStyle="crossDissolve" id="Bna-IO-ubO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="73" translatesAutoresizingMaskIntoConstraints="NO" id="JRd-38-DcF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7d-S3-zG9">
+                                <rect key="frame" x="95" y="501" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="vKv-7t-jIr" kind="presentation" modalTransitionStyle="crossDissolve" id="vXd-bC-fyX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXl-lD-EsW">
+                                <rect key="frame" x="46" y="501" width="41" height="38"/>
+                                <connections>
+                                    <segue destination="9bh-qv-mvh" kind="presentation" modalTransitionStyle="crossDissolve" id="FUA-lG-DDe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPm-Yr-4iS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5" y="-385.5"/>
+        </scene>
+        <!--UploadVC-->
+        <scene sceneID="4eT-M4-kif">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PhotoUpload" referencedIdentifier="UploadVC" id="Utt-aI-lsB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="txs-Ql-YZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.5" y="-282"/>
+        </scene>
+        <!--Comment View Controller-->
+        <scene sceneID="kJ5-by-VfE">
+            <objects>
+                <viewController storyboardIdentifier="CommentVC" id="9bh-qv-mvh" customClass="CommentViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PT7-fD-Z0q"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tnh-0e-aMw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FAm-JY-WNl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="74" translatesAutoresizingMaskIntoConstraints="NO" id="5Yt-Ys-Czi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7y-yS-8Kz">
+                                <rect key="frame" x="0.0" y="27" width="49" height="30"/>
+                                <connections>
+                                    <segue destination="umA-4V-BYm" kind="unwind" unwindAction="prepareForSegue:sender:" id="wvR-DI-dhQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-aw-Gb6">
+                                <rect key="frame" x="55" y="411" width="243" height="30"/>
+                                <connections>
+                                    <segue destination="JQg-6y-Zgk" kind="presentation" modalTransitionStyle="crossDissolve" id="MN7-9s-yXJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxd-bf-bXZ">
+                                <rect key="frame" x="1" y="451" width="374" height="216"/>
+                                <connections>
+                                    <segue destination="JQg-6y-Zgk" kind="presentation" modalTransitionStyle="crossDissolve" id="MKn-6d-9MJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cdk-Pm-RNj"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fxn-rW-OBX" sceneMemberID="firstResponder"/>
+                <exit id="umA-4V-BYm" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1370.5" y="359.5"/>
+        </scene>
+        <!--Comment View Controller-->
+        <scene sceneID="tyO-RO-M7O">
+            <objects>
+                <viewController id="JQg-6y-Zgk" customClass="CommentViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3dS-B7-hTj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ke3-a8-yMq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QrV-4f-1AA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="76" translatesAutoresizingMaskIntoConstraints="NO" id="pZc-aD-PGT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZp-zg-Qvn">
+                                <rect key="frame" x="0.0" y="27" width="49" height="30"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" id="fYg-Bk-1MP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="At1-0n-SVx">
+                                <rect key="frame" x="321" y="410" width="45" height="30"/>
+                                <connections>
+                                    <segue destination="eul-k2-akh" kind="presentation" modalTransitionStyle="crossDissolve" id="hf0-vK-XYF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfI-cw-yKa">
+                                <rect key="frame" x="288" y="629" width="78" height="30"/>
+                                <connections>
+                                    <segue destination="eul-k2-akh" kind="presentation" modalTransitionStyle="crossDissolve" id="ESr-S3-mlc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0xv-sq-fHH"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sU-uZ-fs5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806.5" y="359.5"/>
+        </scene>
+        <!--Comment View Controller-->
+        <scene sceneID="vik-dO-qpM">
+            <objects>
+                <viewController id="eul-k2-akh" customClass="CommentViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YPi-fG-YV8"/>
+                        <viewControllerLayoutGuide type="bottom" id="WMH-ub-MZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7PN-0v-yaS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1Y-X1-Jpj">
+                                <rect key="frame" x="0.0" y="27" width="49" height="30"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" modalTransitionStyle="crossDissolve" id="OFq-XR-U66"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pO-GB-GoH">
+                                <rect key="frame" x="55" y="411" width="257" height="30"/>
+                                <connections>
+                                    <segue destination="JQg-6y-Zgk" kind="presentation" modalTransitionStyle="crossDissolve" id="zSY-f0-Asg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="77" translatesAutoresizingMaskIntoConstraints="NO" id="i3V-OE-xs0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OA3-Z0-XYV"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xr-bD-c2g" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244.5" y="359.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fDK-I8-fmi">
+            <objects>
+                <viewController storyboardIdentifier="ShareVC" id="vKv-7t-jIr" customClass="ViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thl-Ep-YOT"/>
+                        <viewControllerLayoutGuide type="bottom" id="jsI-rm-dKd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y9M-9T-SRq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="78" translatesAutoresizingMaskIntoConstraints="NO" id="8yz-8I-Kta">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdb-UP-bnV">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFe-10-vzn">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2Y-j9-MEc">
+                                <rect key="frame" x="8" y="629" width="358" height="30"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" modalTransitionStyle="crossDissolve" id="sPG-z3-qwI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HS-aB-g23">
+                                <rect key="frame" x="8" y="500" width="358" height="99"/>
+                                <connections>
+                                    <segue destination="Lly-H5-NBZ" kind="presentation" modalTransitionStyle="crossDissolve" id="arU-di-MAf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pUp-o8-JpH"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSu-Gu-zCX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376.5" y="1203.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qnV-VL-UjG">
+            <objects>
+                <viewController id="Lly-H5-NBZ" customClass="ViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Dl-tD-AFZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Crg-DN-KWQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="801-8I-XuQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="79" translatesAutoresizingMaskIntoConstraints="NO" id="3AV-it-3Iy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuS-6J-Q6m">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKk-qw-0l4">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaA-ZU-05T">
+                                <rect key="frame" x="20" y="564" width="341" height="30"/>
+                                <connections>
+                                    <segue destination="nv9-qN-CbN" kind="presentation" modalTransitionStyle="crossDissolve" id="blH-ay-O9W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p2L-ac-7C6"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fpF-pW-AxX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1861.5" y="1203.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lgc-7J-hEO">
+            <objects>
+                <viewController id="nv9-qN-CbN" customClass="ViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PIM-Aw-pgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="pre-kD-Jaz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8DV-pj-hyG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="80" translatesAutoresizingMaskIntoConstraints="NO" id="Arr-jQ-XZE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqJ-o2-cEV">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zw6-Qg-Xb5">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEH-sj-sCy">
+                                <rect key="frame" x="1" y="397" width="374" height="51"/>
+                                <connections>
+                                    <segue destination="fuE-Ae-GEk" kind="presentation" modalTransitionStyle="crossDissolve" id="FVw-Tj-H6h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="97Q-1D-ujZ"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KE5-ou-B6V" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287.5" y="1203.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ocz-Dn-IxG">
+            <objects>
+                <viewController id="fuE-Ae-GEk" customClass="ViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TKh-sK-MIu"/>
+                        <viewControllerLayoutGuide type="bottom" id="kPr-aJ-PUV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H8B-Yn-gBB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="82" translatesAutoresizingMaskIntoConstraints="NO" id="mfz-fg-8vM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0Z-CO-Q3P">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-R8-pei">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYe-Kh-1KP">
+                                <rect key="frame" x="337" y="26" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="cf2-iH-lV1" kind="presentation" modalTransitionStyle="crossDissolve" id="IRI-gh-d5v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8E-MG-8L9">
+                                <rect key="frame" x="1" y="64" width="374" height="555"/>
+                                <connections>
+                                    <segue destination="cf2-iH-lV1" kind="presentation" modalTransitionStyle="crossDissolve" id="zww-kS-k9K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA8-Bh-bdA">
+                                <rect key="frame" x="5" y="500" width="38" height="30"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" modalTransitionStyle="crossDissolve" id="d54-BS-z4Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m81-Cr-aol">
+                                <rect key="frame" x="50" y="500" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="9bh-qv-mvh" kind="show" id="Ide-zD-i22"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nem-v2-Jp1">
+                                <rect key="frame" x="94" y="500" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="vKv-7t-jIr" kind="presentation" modalTransitionStyle="crossDissolve" id="ehy-V5-QKt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rFF-5a-o6r"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1xe-ei-UB7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2687.5" y="1203.5"/>
+        </scene>
+        <!--SearchVC-->
+        <scene sceneID="Nj0-Yo-kLU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="SearchVC" id="8jo-2O-eOi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSJ-ab-o8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941.5" y="-148"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="KXJ-ZK-D3z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="MainVC" id="2Xx-Zg-1Pt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7A-v9-uTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881.5" y="359.5"/>
+        </scene>
+        <!--Message View Controller-->
+        <scene sceneID="Qzd-Xr-PKP">
+            <objects>
+                <viewController storyboardIdentifier="MessageVC" id="joH-MN-X3l" customClass="MessageViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="faI-Ey-Lki"/>
+                        <viewControllerLayoutGuide type="bottom" id="WUh-Gg-FxG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fOF-qL-sHP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="83" translatesAutoresizingMaskIntoConstraints="NO" id="h5F-fR-hzu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZP-xi-MtC">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2j9-Ua-hAc">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8S-4i-Gfk">
+                                <rect key="frame" x="97" y="500" width="30" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41x-1Y-Qdi">
+                                <rect key="frame" x="8" y="25" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="cUA-tn-RKX" kind="unwind" unwindAction="prepareForSegue:sender:" id="R1H-s4-uLE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmK-nk-Wrt">
+                                <rect key="frame" x="333" y="17" width="42" height="46"/>
+                                <connections>
+                                    <segue destination="3gk-DW-Pij" kind="presentation" modalTransitionStyle="crossDissolve" id="MND-Dt-zby"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tmz-E8-efe"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypa-Vi-6ZO" sceneMemberID="firstResponder"/>
+                <exit id="cUA-tn-RKX" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1365.5" y="-1148.5"/>
+        </scene>
+        <!--Message View Controller-->
+        <scene sceneID="Aqp-fx-SSS">
+            <objects>
+                <viewController id="3gk-DW-Pij" customClass="MessageViewController" customModule="ImpostergramFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SV6-Ol-HTm"/>
+                        <viewControllerLayoutGuide type="bottom" id="RtE-cc-YR4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1jx-Il-V5m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="84" translatesAutoresizingMaskIntoConstraints="NO" id="Sp6-dm-bG2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX1-Ef-Iwh">
+                                <rect key="frame" x="8" y="500" width="32" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-tG-7yL">
+                                <rect key="frame" x="48" y="500" width="35" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHs-fg-Fsu">
+                                <rect key="frame" x="97" y="500" width="30" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGf-S1-ceZ">
+                                <rect key="frame" x="8" y="25" width="30" height="30"/>
+                                <connections>
+                                    <segue destination="xJn-Jq-S7g" kind="unwind" unwindAction="prepareForSegue:sender:" id="0DS-2J-gHM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7F-SD-LzE">
+                                <rect key="frame" x="8" y="603" width="361" height="64"/>
+                                <connections>
+                                    <segue destination="joH-MN-X3l" kind="presentation" modalTransitionStyle="crossDissolve" id="Hvq-UH-8dE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNl-fn-kO4">
+                                <rect key="frame" x="8" y="8" width="367" height="587"/>
+                                <connections>
+                                    <segue destination="2Xx-Zg-1Pt" kind="presentation" modalTransitionStyle="crossDissolve" id="qVM-MC-lRB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qD5-HX-Cp5"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTT-cp-omE" sceneMemberID="firstResponder"/>
+                <exit id="xJn-Jq-S7g" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1785.5" y="-1156.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="73" width="665" height="1182"/>
+        <image name="74" width="665" height="1182"/>
+        <image name="76" width="665" height="1182"/>
+        <image name="77" width="665" height="1182"/>
+        <image name="78" width="665" height="1182"/>
+        <image name="79" width="665" height="1182"/>
+        <image name="80" width="665" height="1182"/>
+        <image name="82" width="665" height="1182"/>
+        <image name="83" width="665" height="1182"/>
+        <image name="84" width="665" height="1182"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vXd-bC-fyX"/>
+        <segue reference="zww-kS-k9K"/>
+        <segue reference="ZOe-Zx-VrZ"/>
+        <segue reference="Bna-IO-ubO"/>
+        <segue reference="j3f-GY-GFO"/>
+        <segue reference="MKn-6d-9MJ"/>
+        <segue reference="ESr-S3-mlc"/>
+    </inferredMetricsTieBreakers>
+</document>

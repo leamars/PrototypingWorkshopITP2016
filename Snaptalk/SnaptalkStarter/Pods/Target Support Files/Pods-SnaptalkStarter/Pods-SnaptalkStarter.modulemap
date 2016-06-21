@@ -1,0 +1,6 @@
+framework module Pods_SnaptalkStarter {
+  umbrella header "Pods-SnaptalkStarter-umbrella.h"
+
+  export *
+  module * { export * }
+}
