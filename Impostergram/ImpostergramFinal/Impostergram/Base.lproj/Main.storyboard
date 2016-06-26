@@ -171,7 +171,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swY-hg-Ylj">
                                 <rect key="frame" x="163" y="629" width="49" height="30"/>
                                 <connections>
-                                    <segue destination="5hU-CZ-Hga" kind="presentation" modalTransitionStyle="crossDissolve" id="8AZ-de-q0G"/>
+                                    <segue destination="tMa-q6-wJW" kind="presentation" modalTransitionStyle="crossDissolve" id="WvM-0K-0yD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mX-ec-Il5">
+                                <rect key="frame" x="239" y="626" width="47" height="36"/>
+                                <connections>
+                                    <segue destination="TxL-W6-wmh" kind="presentation" modalTransitionStyle="crossDissolve" id="bNe-eH-y3l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gR-FV-mz8">
+                                <rect key="frame" x="320" y="626" width="40" height="36"/>
+                                <connections>
+                                    <segue destination="VFy-gi-ToE" kind="presentation" modalTransitionStyle="crossDissolve" id="dZx-xN-wgh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -186,6 +198,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wmb-qf-VMH" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="63.5" y="1215.5"/>
+        </scene>
+        <!--UploadVC-->
+        <scene sceneID="AK7-du-ZQL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PhotoUpload" referencedIdentifier="UploadVC" id="tMa-q6-wJW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D4t-CF-1Do" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-63.5" y="1712"/>
         </scene>
         <!--UploadVC-->
         <scene sceneID="Sjj-TL-Q49">
@@ -521,10 +541,10 @@
         <image name="99" width="665" height="1182"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Euk-3X-tdH"/>
-        <segue reference="Kwv-62-7Uc"/>
-        <segue reference="KCd-MC-E0T"/>
-        <segue reference="nKc-6S-awj"/>
-        <segue reference="1Dh-3D-DEL"/>
+        <segue reference="ReH-Hm-SXa"/>
+        <segue reference="bNe-eH-y3l"/>
+        <segue reference="tR6-y9-rgZ"/>
+        <segue reference="MWA-HM-seV"/>
+        <segue reference="dZx-xN-wgh"/>
     </inferredMetricsTieBreakers>
 </document>

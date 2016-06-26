@@ -6,32 +6,32 @@ All supplementary workshop materials and links can be found here: [Presentation 
 * Have a computer running OSX/macOS 
 * Have Xcode (between 7.1 - 7.3)
 * Have an Apple Developer account - [how to set it up](http://www.idownloadblog.com/2015/12/24/how-to-create-a-free-apple-developer-account-xcode/)
-
-### OPTIONAL
 * Sketch, [download here](https://www.sketchapp.com/)
-* Some graphics editing software, preferably vector based
+* Sketch Toolbox, [download here](http://sketchtoolbox.com/)
+* Install the Aeiconizer plugin
+* PaintCode, [download here](https://www.paintcodeapp.com/)
 
 ## PLAN
 * Storyboard an app from images, they will be provided for you if you don't have any
 * Prototype an app you’ve designed, if you don’t have a prototype, one will be provided for you
-* Prototyping animations with Spring by Meng To
+* Drawing in Code
 * Advanced prototyping - adding some code!
 
 
 ## STORYBOARDING FROM IMAGES
-* The first app we'll be making is a simple Hello, World app
+* The first app we'll be making is a clone of a popular image sharing app, Impostergram
 
-<!--![Hello ITP gif](Assets/helloITPVideo.gif)-->
+<!--![Impostergram gif](Assets/ImposterGramVid.gif)-->
 
 ## SIMPLE PROTOTYPING
 * Prototyping with UI Elements - rectangles, text, images...
 
-<!--![Navigation gif](Assets/NavVideo.gif)-->
+<!--![Simple Lonas](Assets/SimpleLoansVid.gif)-->
 
-## PROTOTYPING ANIMATIONS WITH SPRING
-* Learn how to install & use [Spring](https://github.com/MengTo/Spring) to prototype interactions with animations
+## DRAWING WITH CODE
+* Learn how to use PaintCode and use it in your Xcode projects
 
 <!--![Random colors gif](Assets/randomColors.gif)-->
 
 ## ADVANCED PROTOTYPING WITH CODE
-* How to make your own advanced prototypes
+* How to add some coding magic to your prototypes
