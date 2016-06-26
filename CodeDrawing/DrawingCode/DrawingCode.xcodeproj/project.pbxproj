@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300A3BFF1D20365A0007CC57 /* MyStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3BFE1D20365A0007CC57 /* MyStyleKit.swift */; };
+		300A3C011D2037730007CC57 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3C001D2037730007CC57 /* StarView.swift */; };
+		300A3C031D2038820007CC57 /* SettingsIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3C021D2038820007CC57 /* SettingsIconView.swift */; };
 		309B70DC1D200DF300185206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70DB1D200DF300185206 /* AppDelegate.swift */; };
 		309B70DE1D200DF300185206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70DD1D200DF300185206 /* ViewController.swift */; };
 		309B70E11D200DF300185206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309B70DF1D200DF300185206 /* Main.storyboard */; };
 		309B70E31D200DF300185206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309B70E21D200DF300185206 /* Assets.xcassets */; };
 		309B70E61D200DF300185206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309B70E41D200DF300185206 /* LaunchScreen.storyboard */; };
-		309B70EE1D200E0000185206 /* DrawCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70ED1D200E0000185206 /* DrawCamera.swift */; };
-		309B70F01D20102100185206 /* MyStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70EF1D20102100185206 /* MyStyleKit.swift */; };
-		309B70F21D20118A00185206 /* DrawCameraPaintCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70F11D20118A00185206 /* DrawCameraPaintCode.swift */; };
+		309B70EE1D200E0000185206 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70ED1D200E0000185206 /* CameraView.swift */; };
+		309B70F21D20118A00185206 /* CameraViewPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B70F11D20118A00185206 /* CameraViewPC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300A3BFE1D20365A0007CC57 /* MyStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStyleKit.swift; sourceTree = SOURCE_ROOT; };
+		300A3C001D2037730007CC57 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		300A3C021D2038820007CC57 /* SettingsIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsIconView.swift; sourceTree = "<group>"; };
 		309B70D81D200DF300185206 /* DrawingCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309B70DB1D200DF300185206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		309B70DD1D200DF300185206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +30,8 @@
 		309B70E21D200DF300185206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309B70E51D200DF300185206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		309B70E71D200DF300185206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		309B70ED1D200E0000185206 /* DrawCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCamera.swift; sourceTree = "<group>"; };
-		309B70EF1D20102100185206 /* MyStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyStyleKit.swift; path = ../MyStyleKit.swift; sourceTree = "<group>"; };
-		309B70F11D20118A00185206 /* DrawCameraPaintCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCameraPaintCode.swift; sourceTree = "<group>"; };
+		309B70ED1D200E0000185206 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		309B70F11D20118A00185206 /* CameraViewPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewPC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,7 @@
 		309B70CF1D200DF300185206 = {
 			isa = PBXGroup;
 			children = (
-				309B70DA1D200DF300185206 /* Test */,
+				309B70DA1D200DF300185206 /* DrawingCode */,
 				309B70D91D200DF300185206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		309B70DA1D200DF300185206 /* Test */ = {
+		309B70DA1D200DF300185206 /* DrawingCode */ = {
 			isa = PBXGroup;
 			children = (
 				309B70DB1D200DF300185206 /* AppDelegate.swift */,
@@ -66,11 +70,13 @@
 				309B70E21D200DF300185206 /* Assets.xcassets */,
 				309B70E41D200DF300185206 /* LaunchScreen.storyboard */,
 				309B70E71D200DF300185206 /* Info.plist */,
-				309B70ED1D200E0000185206 /* DrawCamera.swift */,
-				309B70EF1D20102100185206 /* MyStyleKit.swift */,
-				309B70F11D20118A00185206 /* DrawCameraPaintCode.swift */,
+				309B70ED1D200E0000185206 /* CameraView.swift */,
+				300A3BFE1D20365A0007CC57 /* MyStyleKit.swift */,
+				309B70F11D20118A00185206 /* CameraViewPC.swift */,
+				300A3C001D2037730007CC57 /* StarView.swift */,
+				300A3C021D2038820007CC57 /* SettingsIconView.swift */,
 			);
-			path = Test;
+			name = DrawingCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309B70F21D20118A00185206 /* DrawCameraPaintCode.swift in Sources */,
-				309B70EE1D200E0000185206 /* DrawCamera.swift in Sources */,
+				300A3C031D2038820007CC57 /* SettingsIconView.swift in Sources */,
+				300A3C011D2037730007CC57 /* StarView.swift in Sources */,
+				309B70F21D20118A00185206 /* CameraViewPC.swift in Sources */,
+				309B70EE1D200E0000185206 /* CameraView.swift in Sources */,
+				300A3BFF1D20365A0007CC57 /* MyStyleKit.swift in Sources */,
 				309B70DE1D200DF300185206 /* ViewController.swift in Sources */,
 				309B70DC1D200DF300185206 /* AppDelegate.swift in Sources */,
-				309B70F01D20102100185206 /* MyStyleKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.Test;
 				PRODUCT_NAME = DrawingCode;
@@ -274,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.Test;
 				PRODUCT_NAME = DrawingCode;

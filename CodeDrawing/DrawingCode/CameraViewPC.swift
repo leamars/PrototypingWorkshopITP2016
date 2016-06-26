@@ -1,5 +1,5 @@
 //
-//  Circle.swift
+//  CameraViewPC.swift
 //  Test
 //
 //  Created by Lea Marolt on 6/26/16.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class Circle: UIView {
+class CameraViewPC: UIView {
 
     override func drawRect(rect: CGRect) {
         // Drawing code
