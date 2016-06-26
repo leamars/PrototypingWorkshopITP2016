@@ -21,17 +21,17 @@ All supplementary workshop materials and links can be found here: [Presentation 
 ## STORYBOARDING FROM IMAGES
 * The first app we'll be making is a clone of a popular image sharing app, Impostergram
 
-<!--![Impostergram gif](Assets/ImposterGramVid.gif)-->
+[Impostergram gif](Assets/ImposterGramVid.gif)
 
 ## SIMPLE PROTOTYPING
 * Prototyping with UI Elements - rectangles, text, images...
 
-<!--![Simple Lonas](Assets/SimpleLoansVid.gif)-->
+[Simple Lonas](Assets/SimpleLoansVid.gif)
 
 ## DRAWING WITH CODE
 * Learn how to use PaintCode and use it in your Xcode projects
 
-<!--![Random colors gif](Assets/randomColors.gif)-->
 
 ## ADVANCED PROTOTYPING WITH CODE
 * How to add some coding magic to your prototypes
+[Stepper](Assets/StepperVid.gif)

@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300A3BC71D2016C70007CC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3BC61D2016C70007CC57 /* AppDelegate.swift */; };
+		300A3BC91D2016C70007CC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3BC81D2016C70007CC57 /* ViewController.swift */; };
+		300A3BCC1D2016C70007CC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300A3BCA1D2016C70007CC57 /* Main.storyboard */; };
+		300A3BCE1D2016C70007CC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300A3BCD1D2016C70007CC57 /* Assets.xcassets */; };
+		300A3BD11D2016C70007CC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300A3BCF1D2016C70007CC57 /* LaunchScreen.storyboard */; };
+		300A3BD91D2016D30007CC57 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A3BD81D2016D30007CC57 /* CircleButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300A3BC31D2016C70007CC57 /* StepperStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A3BC61D2016C70007CC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		300A3BC81D2016C70007CC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		300A3BCB1D2016C70007CC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		300A3BCD1D2016C70007CC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300A3BD01D2016C70007CC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		300A3BD21D2016C70007CC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300A3BD81D2016D30007CC57 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300A3BC01D2016C70007CC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300A3BBA1D2016C70007CC57 = {
+			isa = PBXGroup;
+			children = (
+				300A3BC51D2016C70007CC57 /* StepperStarter */,
+				300A3BC41D2016C70007CC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300A3BC41D2016C70007CC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300A3BC31D2016C70007CC57 /* StepperStarter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300A3BC51D2016C70007CC57 /* StepperStarter */ = {
+			isa = PBXGroup;
+			children = (
+				300A3BC61D2016C70007CC57 /* AppDelegate.swift */,
+				300A3BC81D2016C70007CC57 /* ViewController.swift */,
+				300A3BD81D2016D30007CC57 /* CircleButton.swift */,
+				300A3BCA1D2016C70007CC57 /* Main.storyboard */,
+				300A3BCD1D2016C70007CC57 /* Assets.xcassets */,
+				300A3BCF1D2016C70007CC57 /* LaunchScreen.storyboard */,
+				300A3BD21D2016C70007CC57 /* Info.plist */,
+			);
+			path = StepperStarter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300A3BC21D2016C70007CC57 /* StepperStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300A3BD51D2016C70007CC57 /* Build configuration list for PBXNativeTarget "StepperStarter" */;
+			buildPhases = (
+				300A3BBF1D2016C70007CC57 /* Sources */,
+				300A3BC01D2016C70007CC57 /* Frameworks */,
+				300A3BC11D2016C70007CC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepperStarter;
+			productName = StepperStarter;
+			productReference = 300A3BC31D2016C70007CC57 /* StepperStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300A3BBB1D2016C70007CC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lea Marolt Sonnenschein";
+				TargetAttributes = {
+					300A3BC21D2016C70007CC57 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 300A3BBE1D2016C70007CC57 /* Build configuration list for PBXProject "StepperStarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300A3BBA1D2016C70007CC57;
+			productRefGroup = 300A3BC41D2016C70007CC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300A3BC21D2016C70007CC57 /* StepperStarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300A3BC11D2016C70007CC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A3BD11D2016C70007CC57 /* LaunchScreen.storyboard in Resources */,
+				300A3BCE1D2016C70007CC57 /* Assets.xcassets in Resources */,
+				300A3BCC1D2016C70007CC57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300A3BBF1D2016C70007CC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A3BD91D2016D30007CC57 /* CircleButton.swift in Sources */,
+				300A3BC91D2016C70007CC57 /* ViewController.swift in Sources */,
+				300A3BC71D2016C70007CC57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		300A3BCA1D2016C70007CC57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300A3BCB1D2016C70007CC57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		300A3BCF1D2016C70007CC57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300A3BD01D2016C70007CC57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300A3BD31D2016C70007CC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		300A3BD41D2016C70007CC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		300A3BD61D2016C70007CC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StepperStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.StepperStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		300A3BD71D2016C70007CC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StepperStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.StepperStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300A3BBE1D2016C70007CC57 /* Build configuration list for PBXProject "StepperStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A3BD31D2016C70007CC57 /* Debug */,
+				300A3BD41D2016C70007CC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300A3BD51D2016C70007CC57 /* Build configuration list for PBXNativeTarget "StepperStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A3BD61D2016C70007CC57 /* Debug */,
+				300A3BD71D2016C70007CC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300A3BBB1D2016C70007CC57 /* Project object */;
+}
